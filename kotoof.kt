@@ -3,10 +3,13 @@ val name = "Soems"
 var greeting: String? = null
 
 fun main() {
-    greeting = "hey"
-    when (greeting) {
-        null -> println("hallo")
-        else -> println(greeting)
+    if (isSoemsPog()) {
+        println("Soems is poggers")
+    } else {
+        println("Soems is not poggers")
     }
-    println(name)
+}
+
+fun isSoemsPog(): Boolean {
+    return true
 }
