@@ -11,5 +11,5 @@ fun main() {
 }
 
 fun isSoemsPog(): Boolean {
-    return true
+    return false
 }
